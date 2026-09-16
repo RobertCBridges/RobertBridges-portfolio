@@ -686,8 +686,8 @@ h1 {
 .presentation .profile-pic {
   display: block;
   /* desktop: target 50% of viewport but clamp to sensible min/max */
-  width: clamp(360px, 50vw, 720px);
-  max-width: 720px;
+  width: clamp(240px, 33vw, 480px);
+  max-width: 480px;
   height: auto;
   object-fit: cover;
   border-radius: 12px;
@@ -713,8 +713,8 @@ h1 {
 
   /* make inline profile image full-width on mobile */
   .presentation .profile-pic {
-    width: 100%;
-    max-width: none;
+    width: 67%;
+    max-width: 480px;
     height: auto;
     border-radius: 12px; /* keep same shape as desktop */
   }
