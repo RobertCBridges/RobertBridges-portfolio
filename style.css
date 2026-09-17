@@ -1053,6 +1053,7 @@ article.project .project-header {
   height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center 35%;
   z-index: 1;
 }
 
