@@ -250,10 +250,11 @@ h1 {
   padding: 2rem 1.5rem;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  /* don't grow to match the form height; size to content */
-  flex: 0 1 320px;
+  flex: 1 1 100%;
+  width: 100%;
+  max-width: 900px;
   min-width: 250px;
-  align-self: flex-start; /* keep it top-aligned */
+  align-self: flex-start;
 }
 .contact-form label {
   display: block;
@@ -616,7 +617,7 @@ h1 {
 /* Contact grid/cards */
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr; /* force single column (stacked) on desktop) */
+  grid-template-columns: 1fr; /* force single column (stacked) on desktop */
   gap: 1rem;
   max-width: 1000px;
   margin: 0 auto 1.5rem auto;
